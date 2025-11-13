@@ -34,7 +34,7 @@ const Login: React.FC = () => {
 
     // Initialize the Google client. This is safe to call multiple times.
     window.google.accounts.id.initialize({
-        client_id: "247650939217-2p5ckc5j2ggaar2vi20ji5o7s4bq9jom.apps.googleusercontent.com", 
+        client_id: "247650939217-bmlgs6mlbkoetd66qthsfovaceibbnh0.apps.googleusercontent.com", 
         callback: handleGoogleCallback,
         ux_mode: 'popup',
     });
